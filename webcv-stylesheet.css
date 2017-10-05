@@ -1,0 +1,42 @@
+* {
+	font-family: Roboto, sans-serif;
+}
+#me {
+	margin: 20px auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.btn.btn-primary {
+	border-radius: 2px;
+	border: 0px;
+	color: grey;
+	text-shadow: none;
+	background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+	color: #ffffff;
+	background-color: grey;
+}
+.hp-img {
+	margin: 50px auto 0px auto;
+}
+.hp-mid {
+	padding: 50px 10px;
+}
+.hp-img-link {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+.hp-img-link:hover {
+	text-decoration: none;
+	color: grey;
+}
+footer{
+	color: grey;
+	background-color: black;
+	padding: 10px;
+	margin-top: 50px;
+}
