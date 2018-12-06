@@ -1,3 +1,30 @@
 body {
-  background-color: #ffff00;
+  padding:0px;
+  margin:0px;
+}
+
+.grid-container div{
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  grid-area: logo;
+}
+
+.header{
+  grid-area: header;
+}
+
+.sidebar{
+  grid-area: sidebar;
+}
+
+.main-content{
+  grid-area: mContent;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 'logo header' 'sidebar mContent' 'sidebar mContent';
 }
