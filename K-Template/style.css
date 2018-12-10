@@ -11,11 +11,122 @@ body {
   text-align: center;
   font-size: 21px;
   padding: 13px 5px 13px 5px;
+  text-decoration: none;
 }
 
 .header {
   grid-area: header;
   background-color: #00a55b;
+}
+
+/* The animation code */
+@keyframes expandSidebar {
+  0% {grid-template-columns: 50px auto;}
+  2% {grid-template-columns: 53px auto;}
+  4% {grid-template-columns: 56px auto;}
+  6% {grid-template-columns: 59px auto;}
+  8% {grid-template-columns: 62px auto;}
+  10% {grid-template-columns: 65px auto;}
+  12% {grid-template-columns: 68px auto;}
+  14% {grid-template-columns: 71px auto;}
+  16% {grid-template-columns: 74px auto;}
+  18% {grid-template-columns: 77px auto;}
+  20% {grid-template-columns: 80px auto;}
+  22% {grid-template-columns: 83px auto;}
+  24% {grid-template-columns: 86px auto;}
+  26% {grid-template-columns: 89px auto;}
+  28% {grid-template-columns: 92px auto;}
+  30% {grid-template-columns: 95px auto;}
+  32% {grid-template-columns: 98px auto;}
+  34% {grid-template-columns: 101px auto;}
+  36% {grid-template-columns: 104px auto;}
+  38% {grid-template-columns: 107px auto;}
+  40% {grid-template-columns: 110px auto;}
+  42% {grid-template-columns: 113px auto;}
+  44% {grid-template-columns: 116px auto;}
+  46% {grid-template-columns: 119px auto;}
+  48% {grid-template-columns: 122px auto;}
+  50% {grid-template-columns: 125px auto;}
+  52% {grid-template-columns: 128px auto;}
+  54% {grid-template-columns: 131px auto;}
+  56% {grid-template-columns: 134px auto;}
+  58% {grid-template-columns: 137px auto;}
+  60% {grid-template-columns: 140px auto;}
+  62% {grid-template-columns: 143px auto;}
+  64% {grid-template-columns: 146px auto;}
+  66% {grid-template-columns: 149px auto;}
+  68% {grid-template-columns: 152px auto;}
+  70% {grid-template-columns: 155px auto;}
+  72% {grid-template-columns: 158px auto;}
+  74% {grid-template-columns: 161px auto;}
+  76% {grid-template-columns: 164px auto;}
+  78% {grid-template-columns: 167px auto;}
+  80% {grid-template-columns: 170px auto;}
+  82% {grid-template-columns: 173px auto;}
+  84% {grid-template-columns: 176px auto;}
+  86% {grid-template-columns: 179px auto;}
+  88% {grid-template-columns: 182px auto;}
+  90% {grid-template-columns: 185px auto;}
+  92% {grid-template-columns: 188px auto;}
+  94% {grid-template-columns: 191px auto;}
+  96% {grid-template-columns: 194px auto;}
+  98% {grid-template-columns: 197px auto;}
+  100% {grid-template-columns: 200px auto;}
+}
+
+/* The animation code */
+@keyframes minimizeSidebar {
+  100% {grid-template-columns: 50px auto;}
+  98% {grid-template-columns: 53px auto;}
+  96% {grid-template-columns: 56px auto;}
+  94% {grid-template-columns: 59px auto;}
+  92% {grid-template-columns: 62px auto;}
+  90% {grid-template-columns: 65px auto;}
+  88% {grid-template-columns: 68px auto;}
+  86% {grid-template-columns: 71px auto;}
+  84% {grid-template-columns: 74px auto;}
+  82% {grid-template-columns: 77px auto;}
+  80% {grid-template-columns: 80px auto;}
+  78% {grid-template-columns: 83px auto;}
+  76% {grid-template-columns: 86px auto;}
+  74% {grid-template-columns: 89px auto;}
+  72% {grid-template-columns: 92px auto;}
+  70% {grid-template-columns: 95px auto;}
+  68% {grid-template-columns: 98px auto;}
+  66% {grid-template-columns: 101px auto;}
+  64% {grid-template-columns: 104px auto;}
+  62% {grid-template-columns: 107px auto;}
+  60% {grid-template-columns: 110px auto;}
+  58% {grid-template-columns: 113px auto;}
+  56% {grid-template-columns: 116px auto;}
+  54% {grid-template-columns: 119px auto;}
+  52% {grid-template-columns: 122px auto;}
+  50% {grid-template-columns: 125px auto;}
+  48% {grid-template-columns: 128px auto;}
+  46% {grid-template-columns: 131px auto;}
+  44% {grid-template-columns: 134px auto;}
+  42% {grid-template-columns: 137px auto;}
+  40% {grid-template-columns: 140px auto;}
+  38% {grid-template-columns: 143px auto;}
+  36% {grid-template-columns: 146px auto;}
+  34% {grid-template-columns: 149px auto;}
+  32% {grid-template-columns: 152px auto;}
+  30% {grid-template-columns: 155px auto;}
+  28% {grid-template-columns: 158px auto;}
+  26% {grid-template-columns: 161px auto;}
+  24% {grid-template-columns: 164px auto;}
+  22% {grid-template-columns: 167px auto;}
+  20% {grid-template-columns: 170px auto;}
+  18% {grid-template-columns: 173px auto;}
+  16% {grid-template-columns: 176px auto;}
+  14% {grid-template-columns: 179px auto;}
+  12% {grid-template-columns: 182px auto;}
+  10% {grid-template-columns: 185px auto;}
+  8% {grid-template-columns: 188px auto;}
+  6% {grid-template-columns: 191px auto;}
+  4% {grid-template-columns: 194px auto;}
+  2% {grid-template-columns: 197px auto;}
+  0% {grid-template-columns: 200px auto;}
 }
 
 .sidebar {
