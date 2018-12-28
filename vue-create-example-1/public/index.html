@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>vue-create-example-1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
   <body>
     <noscript>
       <strong>We're sorry but vue-create-example-1 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <script>
+        var small = true
+  
+        function resizeSB() {
+          if (small == true) {
+            document.getElementById("grid-container").style.animationName = "expandSidebar";
+            document.getElementById("grid-container").style.animationDuration = "0.1s";
+            document.getElementById("grid-container").style.gridTemplateColumns = "200px auto";
+            document.getElementById("resizeButton").innerHTML = '<i class="fas fa-2x fa-arrow-left"></i>';
+            document.getElementById("logo").innerHTML = '<b>One</b>Plan';
+            small = false;
+          } else {
+            document.getElementById("grid-container").style.animationName = "minimizeSidebar";
+            document.getElementById("grid-container").style.animationDuration = "0.1s";
+            document.getElementById("grid-container").style.gridTemplateColumns = "50px auto";
+            document.getElementById("resizeButton").innerHTML = '<i class="fas fa-2x fa-arrow-right"></i>';
+            document.getElementById("logo").innerHTML = '<b>O</b>P';
+            small = true;
+          }
+        };
+      </script>
     <!-- built files will be auto injected -->
   </body>
 </html>
